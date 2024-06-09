@@ -11,7 +11,7 @@ body{
 }
 
 #main{
-    height: 200px;
+    height: 300px;
     width: 400px;
     z-index: 1;
     position: relative;
@@ -20,7 +20,7 @@ body{
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 2px 8px 3px rgb(42, 41, 41);
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     padding: 20px;
@@ -38,6 +38,6 @@ details{
 
 }
 #bottom{
-    position: absolute;
-    bottom: 5px;
+    position: relative;
+    top: -60px;
 }
