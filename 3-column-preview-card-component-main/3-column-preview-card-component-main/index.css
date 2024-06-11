@@ -1,0 +1,68 @@
+.wrapper{
+    width: 800px;
+    height: 500px;
+    box-shadow: 2px 2px 30px 10px black;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    margin: -150px;
+    display: flex;
+    box-sizing: border-box;
+    padding:  50px 90px;
+}
+.one{
+    height: 400px;
+    width: 200px;
+    background-color: orange;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.two{
+    height: 400px;
+    width: 200px;
+    padding: 30px;
+    background-color: rgb(39, 111, 39);
+    box-sizing: border-box;
+}
+
+.three{
+    height: 400px;
+    width: 200px;
+    padding: 30px;
+    background-color: rgb(15, 59, 15);
+    box-sizing: border-box;
+}
+#on,#tw,#th{
+    padding:10px 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+    position: absolute;
+    border: none;
+}
+#on{
+    bottom: 70px;
+    left: 130px;
+    color: orange;
+}
+#tw{
+    bottom: 70px;
+    left: 330px;
+    color:  rgb(73, 161, 73);
+}
+#th{
+    bottom: 70px;
+    left: 530px;
+    color:  rgb(15, 59, 15);
+}
+svg{
+    margin: 10px 0px;
+}
+h1,p{
+    color: white;
+}
+h1{
+  margin-top: 0;
+}
+p{
+    line-height: 25px;
+}
